@@ -81,4 +81,3 @@ async def admin_token(client):
         "password": "adminpassword"
     })
     return response.json()["access_token"]
-
